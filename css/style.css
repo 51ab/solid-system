@@ -71,7 +71,7 @@ transition: 2s;
 }
 .btn-dark:hover {
     padding: 0.8rem 3rem;
-   transition:1s;
+   transition:3s;
    
    border: var(--dark);
  color: var(--dark);
