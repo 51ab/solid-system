@@ -102,7 +102,6 @@ transition: 2s;
     margin-bottom: 2rem;
     margin-top: -5rem;
 }
-.aboutt {
-    background-image: url("https://st4.depositphotos.com/1001941/22391/v/950/depositphotos_223918102-stock-illustration-isometric-workspace-web-developer-programmer.jpg");
-background-image: url(https://st4.depositphotos.com/1001941/22391/v/950/depositphotos_223918102-stock-illustration-isometric-workspace-web-developer-programmer.jpg);
+section{
+    padding: 3rem 17rem;;
 }
