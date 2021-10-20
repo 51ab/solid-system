@@ -103,22 +103,25 @@ transition: 2s;
     margin-top: -5rem;
 }
 section{
-    padding: 2rem 17rem;;
+    padding: 2rem 17rem;
+    text-align:center;
 }
 section.about h1{
-    
+     text-align:center;
     margin-bottom: 2rem;
     margin-left: 14rem;
     font-family: 'lato', sans-serif;
 }
 section.about .social{
     display: flex;
+     text-align:center;
     margin-left:14rem ;
     margin-top: 3rem;
 }
 section.about .social a{
     background: var(--dark);
     display:flex;
+     text-align:center;
     align-items: center;
     justify-content: center;
     width:35px;
