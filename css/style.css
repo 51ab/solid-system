@@ -109,13 +109,13 @@ section{
 section.about h1{
      text-align:center;
     margin-bottom: 2rem;
-    margin-left: 14rem;
+   
     font-family: 'lato', sans-serif;
 }
 section.about .social{
     display: flex;
      text-align:center;
-    margin-left:14rem ;
+  
     margin-top: 3rem;
 }
 section.about .social a{
