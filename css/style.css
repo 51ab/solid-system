@@ -240,7 +240,9 @@ section.experience{
     font-family: 'Lato';
 
 }
-section.experience .image{
-    margin-left: 58rem;
+section.experience .slider .slide .image{
+  text-align: center;
     border-radius: 50%;
+    margin-left: 57rem;
+   
 }
