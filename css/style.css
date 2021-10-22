@@ -113,7 +113,7 @@ section.about h1{
 }
 section.about .social{
     display: flex;
-    text-align:center;
+    margin-left:14rem ;
     margin-top: 3rem;
 }
 section.about .social a{
@@ -224,7 +224,23 @@ section.job{
     text-align: center;
     font-family: 'Lato';
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/camera.png);
+    clip-path: polygon(0 0, 100% 0, 100% 100%,70% 80%,0 100% );
+    padding-bottom: 7rem;
 }
 section.job h1{
     color:white;
+  
+}
+section.job p{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+section.experience{
+    text-align: center;
+    font-family: 'Lato';
+
+}
+section.experience .image{
+    margin-left: 58rem;
+    border-radius: 50%;
 }
