@@ -243,9 +243,21 @@ section.experience{
 section.experience .slider .slide .image{
   text-align: center;
     border-radius: 50%;
-    position:static;
-    margin-left: 77rem;
+    
     margin-top:2rem;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
+    width:75px;
+    height:75px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    object-fit:cover;
    
+}
+section.experience .slider .slide{
+    text-align:center;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 }
