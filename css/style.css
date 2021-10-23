@@ -225,7 +225,7 @@ section.job{
     font-family: 'Lato';
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/camera.png);
     clip-path: polygon(0 0, 100% 0, 100% 100%,70% 80%,0 100% );
-    padding-bottom: 7rem;
+    padding-bottom: 6rem;
 }
 section.job h1{
     color:white;
@@ -242,12 +242,12 @@ section.experience{
 }
 section.experience .slider .slide .image{
   text-align: center;
-    border-radius: 50%;
+    border-radius: 50px;
     
-    margin-top:2rem;
-    margin-bottom: 2rem;
-    width:75px;
-    height:75px;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    width:85px;
+    height:85px;
     border-top-left-radius: 50% 50%;
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
@@ -255,9 +255,39 @@ section.experience .slider .slide .image{
     object-fit:cover;
    
 }
+section.experience h{
+    margin-bottom: 4rem;
+}
 section.experience .slider .slide{
     text-align:center;
     display:flex;
     align-items: center;
     flex-direction: column;
+}
+section.experience .slider .slide p{
+    margin-top: 1rem;
+}
+section.experience .slider-dots .dots{
+    list-style-type: none;
+    display: flex!important;
+    justify-content: center;
+}
+section.experience .slider-dots button{
+    width:12px;
+    height: 6px;
+    color: #161616;
+    font-size: 0%;
+    margin-right: 0.3rem;
+    border: none;
+    outline: none;
+    background-color: var(--ternary);
+    border-radius: 50px;
+}
+section.experience .slider-dots{
+    margin-top: 1rem;
+}
+
+section.experience .dots li.slick-active button{
+    background: #3DCFD3;
+    width: 20px;
 }
