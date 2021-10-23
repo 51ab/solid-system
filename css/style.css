@@ -113,7 +113,7 @@ section.about h1{
 }
 section.about .social{
     display: flex;
-    margin-left:44rem ;
+    margin-left:26rem ;
     margin-top: 3rem;
 }
 section.about .social a{
