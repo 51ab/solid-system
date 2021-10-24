@@ -113,7 +113,7 @@ section.about h1{
 }
 section.about .social{
     display: flex;
-    margin-left: 20rem;
+    margin-left: 14rem;
     margin-top: 3rem;
     text-align: center;
     display:flex;
@@ -323,13 +323,19 @@ section.project .card-wrapper .card .card-content a{
 section.project .card-wrapper .card .card-content h2{
     font-family: 'Lato';
     margin-bottom: 1rem;
-    color:black;
+   color:cyan
     font-weight: 10px;
+}
+section.project .card-wrapper .card .card-content h2:hover{
+    color: black;
 }
 section.project .card-wrapper .card .card-content p{
     font-family: 'Lato';
     color: #898989;
     
+}
+section.project .card-wrapper .card .card-content p:hover{
+    color:black;
 }
 section.project .card-wrapper .card img{
     margin-top: 1rem;
