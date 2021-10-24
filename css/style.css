@@ -55,7 +55,7 @@ header nav .logo{
 .btn-primary:hover{
 background-color: transparent;
 border-color: var(--primary);
-color:var(--pure);
+color:var(--primary);
 transition: 2s;
 }
 .btnResume
@@ -380,9 +380,22 @@ section.contact input{
  
 }
 section.contact .input-wrap-2 textarea{
-    padding: 0.5rem;
+    padding: 0.3rem;
  
 }
-section.contact .button:hover{
-color: #161616;
+footer{
+    background-color: #161616;
+    text-align: center;
+    padding: 3rem;
+   
+}
+footer .foot-social{
+color:#FFFFFF;
+font-size: 36px;
+text-align: center;
+margin-bottom: 2rem;
+
+}
+footer .copy{
+    color: #F2F2F2;
 }
