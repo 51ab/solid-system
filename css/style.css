@@ -26,9 +26,31 @@ header{
 }
 
 .container{
-    max-width: 1352px;
-    padding: 0 12px;
+    max-width: 1152px;
+    padding: 0 10px;
     margin: 0 auto;
+}
+@media (min-width: 576px)
+{
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px)
+{
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width:1300 px){
+    .container{
+        max-width: 1152px;
+    }
 }
 header nav .left a{
     color: var(--pure);
@@ -46,6 +68,7 @@ header nav {
 header nav .logo{
     margin-right:3rem;
 }
+
 .btn{
     padding: 0.8rem 3rem;
     font-size: medium;
@@ -95,11 +118,11 @@ transition: 2s;
     height: 550px;
 }
 .mid .left{
-    margin-left: 10rem;
+    margin-left: 5rem;
     max-width: 400px;
     margin-right: 8rem;
-    margin-bottom: 2rem;
-    margin-top: -5rem;
+    margin-bottom: 5rem;
+    margin-top: -3rem;
 }
 .mid .right{
     color: var(--pure);
@@ -107,7 +130,7 @@ transition: 2s;
     margin-top: -5rem;
 }
 section{
-    padding: 2rem 12rem;
+    padding: 2rem 10rem;
 }
 section.about{
     text-align: center;
@@ -119,14 +142,17 @@ section.about h1{
     font-family: 'lato', sans-serif;
 }
 section.about .social{
+    padding: 0 70%;
     padding:inherit;
     display: flex;
    text-align: center;
     margin-top: 3rem;
     
+   justify-content: space-between;
    
-    align-items: center;
-    
+}
+div.social{
+    padding: 2rem 4rem;
 }
 section.about .social a{
     background: var(--dark);
@@ -142,6 +168,7 @@ section.about .social a{
 }
 section.skills{
     background:var(--light);
+    padding: 2rem 4rem;
    
  
 }
@@ -314,6 +341,7 @@ section.project .heading{
     color:#FFFFFF
   
 }
+
 section.project .card-wrapper{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -410,7 +438,7 @@ letter-spacing: 0.5rem;
 footer .copy{
     color: #F2F2F2;
 }
-@media (max-width:951px){
+@media (max-width:991px){
     header #main-nav{
         display: none;
     }
@@ -465,9 +493,42 @@ footer .copy{
     text-decoration: none;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2rem;
+    margin-left: 8rem;
   
     
 }
 .mobile-nav ul li{
 margin-bottom: 1.5rem;
+}
+@media (max-width:1024px)
+{
+    header #main-nav{
+        display: none;
+    }
+    img.homepic{
+        width:210px;
+        height: 240px;
+    }
+    button.hamberger{
+        margin-top: 2rem;
+    }
+    div.left{
+        padding-left: 1rem;
+        padding-right: 0rem;
+    }
+    div.right{
+        padding-left: -2rem;
+        padding-top: 1.3rem;
+
+    }
+    .mid .left{
+        margin-right: 3rem;
+    }
+    div.mid.flex.items-center{
+        padding: 1%;
+        padding-top: 3rem;
+    }
+    section#work.project{
+        padding: 2rem 2rem;
+    }
 }
