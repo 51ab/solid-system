@@ -26,8 +26,8 @@ header{
 }
 
 .container{
-    max-width: 1152px;
-    padding: 0 15px;
+    max-width: 1352px;
+    padding: 0 12px;
     margin: 0 auto;
 }
 header nav .left a{
@@ -107,7 +107,10 @@ transition: 2s;
     margin-top: -5rem;
 }
 section{
-    padding: 2rem 17rem;
+    padding: 2rem 12rem;
+}
+section.about{
+    text-align: center;
 }
 section.about h1{
     
@@ -116,13 +119,14 @@ section.about h1{
     font-family: 'lato', sans-serif;
 }
 section.about .social{
+    padding:inherit;
     display: flex;
-    margin-left: 16rem;
+   text-align: center;
     margin-top: 3rem;
-    text-align: center;
-    display:flex;
+    
+   
     align-items: center;
-    flex-direction: row;
+    
 }
 section.about .social a{
     background: var(--dark);
@@ -173,6 +177,7 @@ section.skills .card-wrapper .mid{
     padding: 4rem 0rem;
     position: relative;
     height: 260px;
+    border-radius: 5%;
 }
 section.skills .card-wrapper .mid img{
     background-color: #3DCFD3;
@@ -405,4 +410,59 @@ letter-spacing: 0.5rem;
 footer .copy{
     color: #F2F2F2;
 }
+@media (max-width:951px){
+    header #main-nav{
+        display: none;
+    }
+}
+.site-main-wrapper{
+    position: relative;
+}
+.hamberger{
+    position: absolute;
+    top:5px;
+    right:40px;
+    z-index:11;
+    background: none;
+    border: none;
+    cursor:pointer;
+}
+.hamberger img{
+    width:30px;
+}
+.mobile-nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1001;
+    background: var(--light);
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 4rem;
+    transform: translateX(-100%);
+    transition: all .5s ease;
+}
+.open{
+    transform:translateX(0);
 
+}
+.times{
+    position: fixed;
+    top:30px;
+    right: 30px;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+.mobile-nav ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+.mobile-nav ul li a{
+    color:#161616;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4rem;
+}
