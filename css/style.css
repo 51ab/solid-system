@@ -716,7 +716,7 @@ section.contact .card-wrapper{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     font-size: 1rem;
- padding:  1rem 8rem;
+ padding:  1rem 5rem;
     column-gap: 3.8rem;
 }
 }
