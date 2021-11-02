@@ -601,32 +601,115 @@ section.skills .card-wrapper .mid{
   
     border-radius: 5%;
 }
-section.experience .container{
-    
-}
-section.contact .container{
-    
-}
-div.foot-social{
-    
-}
-div.copy{
-    
-}
-section.job{
- 
-}
+
+
 section.job p{
     max-width: 500px;
 }
-section.job button,section.job h1{
-   
-}
+
 section.project .card-wrapper{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 0.6rem;
     margin-bottom: 5rem;
+    
+}
+}
+@media (max-width:576px){
+.mid{
+    flex-direction: column;
+}
+img.homepic{
+    width: 150px;
+    height: 150px;
+    margin-top: 1rem;
+}
+div.right{
+    text-align: center;
+    padding: 3%;
+    max-width: 570px;
+    margin-top: -8rem;
+    margin-bottom: -3rem;
+}
+div.right h6{
+    margin-top: 0rem;
+}
+div.right h1{
+    font-size: 1.7rem;
+    margin-left: 5rem;
+    margin-top: -0.5rem;
+}
+div.right p{
+    margin-left: 4rem;
+}
+div.right .btnResume{
+    margin-left: 3rem;
+}
+header{
+      
+    clip-path: polygon(0 0, 100% 0, 100% 100%,69% 92%,0 100% );
+}
+div.mobile-nav.open{
+    margin-left: -7rem;
+}
+.times img{
+    margin-right: 7rem;
+    margin-top: 0rem;
+}
+button.hamberger{
+    margin-top: 1rem;
+    margin-right: -3rem;
+}
+div.social{
+    margin-left: -1.7rem;
+}
+section.skills .card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap:2rem ;
+    row-gap: 5rem;
+    margin-bottom: 4rem;
+}
+section.job {
+    max-width:max-content;
+    padding: 3%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%,70% 93%,0 100% );
+}
+section.job p{
+   margin-top: -0.3rem;
+}
+section.job .btnResume{
+    margin-bottom: 0.5rem;
+    margin-top: -1rem;
+}
+section.experience{
+    padding: 1%;
+    text-align: center;
+}
+section.project .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+    margin-bottom: 5rem;
+    
+}
+section.contact .card-wrapper{
+    column-gap: 1rem;
+}
+section.project{
+    clip-path: polygon(0 0, 100% 0, 100% 100%,70% 96%,0 100% );
+}
+section#contact.contact{
+    padding: 1%;
+    
+
+}
+section.contact .input-wrap{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 1rem;
+    column-gap: 1rem;
     
 }
 }
