@@ -144,7 +144,7 @@ section.about h1{
     font-family: 'lato', sans-serif;
 }
 section.about .social{
-    padding: 0 70%;
+    padding: 0 20%;
     padding:inherit;
     display: flex;
    text-align: center;
@@ -154,7 +154,9 @@ section.about .social{
    
 }
 div.social{
-    padding: 2rem 4rem;
+    padding: 2rem 1rem;
+    max-width: 600px;
+    margin-left: 8rem;
 }
 section.about .social a{
     background: var(--dark);
@@ -165,7 +167,7 @@ section.about .social a{
     height:35px;
    background-color: #FFFFFF;
     border-radius: 50%;
-    margin-right: 0.8rem;
+    margin-right: 0.3rem;
    
 }
 section.skills{
@@ -506,7 +508,7 @@ margin-bottom: 1.5rem;
 @media (max-width:1024px)
 {
     header{
-        max-width: 640px;
+      
          clip-path: polygon(0 0, 100% 0, 100% 100%,50% 85%,0 100% );
          
        
@@ -515,73 +517,74 @@ margin-bottom: 1.5rem;
         display: none;
     }
     img.homepic{
-        width:130px;
-        height: 150px;
-        margin-left: -5rem;
+        width:230px;
+        height: 250px;
+        
     }
     button.hamberger{
         margin-top: 2rem;
     }
     .times img{
-        margin-right: 14rem;
+        margin-right: 4rem;
         margin-top: 0.5rem;
     }
-    .mid .left{
-        padding: 0%;
-        margin-right: 0%;
+    div.left{
+        margin-left: 17rem;
+        padding: 2%;
     }
     div.right{
-        margin-left:0rem;
-        max-width: 320px;
         
-
+       margin-left: -5rem;
+    
+     
+    }
+    div.right h1{
+        font-size: 28px;
+    }
+    div.right p{
+        margin-top: 1rem;
     }
     .hamberger img{
-margin-right: 14rem;
+margin-right: 2rem;
     }
-    .mid .left{
-        margin-right: 3rem;
-    }
+    
     div.mid.flex.items-center{
         padding: 1%;
         padding-top: 3rem;
-        margin-left: 2rem;
+      
     }
     section#work.project{
         padding: 2rem 2rem;
-        margin-left: -1.6rem;
+      
     }
     section.about{
-        max-width: 520px;
-        padding: 2%;
-        margin-left: 2rem;
+      
+        padding:2% 11%;
+      
     }
     div.social{
-        max-width: 300px;
-        margin-left: 6rem;
+        max-width: 400px;
+        text-align: center;
+        margin-left: 5rem;
+       
         
     }
-   div.card-wrapper{
-       max-width: 550px;
-   }
+  
    section#skills.skills{
        padding: 2rem 0%;
-       margin-left: -3rem;
+    
 
    }
-   .heading b{
-       
-       margin-left: -14rem;
-   }
-   .p{
-    margin-left: -12rem;
-   }
+  
    section.skills .card-wrapper{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    column-gap:0.7rem ;
+    column-gap:2rem ;
     row-gap: 5rem;
     margin-bottom: 4rem;
+}
+div.card-wrapper{
+    text-align: center;
 }
 section.skills .card-wrapper .card{
     background-color: var(--pure);
@@ -595,29 +598,29 @@ section.skills .card-wrapper .mid{
     background-color:#161616;
     padding: 3rem 0rem;
     position: relative;
-    height: 260px;
+  
     border-radius: 5%;
 }
 section.experience .container{
-    margin-left: -6rem;
+    
 }
 section.contact .container{
-    margin-left: -6rem;
+    
 }
 div.foot-social{
-    margin-left: -11rem;
+    
 }
 div.copy{
-    margin-left: -11rem;
+    
 }
 section.job{
-    margin-left: -8rem;
+ 
 }
 section.job p{
     max-width: 500px;
 }
 section.job button,section.job h1{
-    margin-left: -5rem;
+   
 }
 section.project .card-wrapper{
     display: grid;
