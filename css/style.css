@@ -447,6 +447,7 @@ footer .copy{
     position: relative;
 }
 .hamberger{
+    display: none;
     position: absolute;
     top:5px;
     right:40px;
@@ -515,6 +516,9 @@ margin-bottom: 1.5rem;
     }
     header #main-nav{
         display: none;
+    }
+    .hamberger{
+        display: block;
     }
     img.homepic{
         width:230px;
