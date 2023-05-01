@@ -149,7 +149,7 @@ section.about .social{
     display: flex;
    text-align: center;
     margin-top: 3rem;
-    
+    margin-left: 25%;
    justify-content: space-between;
    
 }
@@ -337,7 +337,7 @@ section.experience .dots li.slick-active button{
 }
 section.project{
     background-image: url("https://th.bing.com/th/id/R.1db4f36afca04c04ee397fb0693bdb46?rik=oRNRWQpzasJj2g&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f9%2f7%2fa%2f489225.jpg&ehk=fR8N9Et5GTG9eNohAN7qQNRBcncE8hVHB5YB5pGiedw%3d&risl=&pid=ImgRaw&r=0");
-    clip-path: polygon(0 0, 100% 0, 100% 100%,70% 90%,0 100% );
+    clip-path: polygon(0 0, 100% 0, 100% 100%,70% 95%,0 100% );
 }
 section.project .heading{
     font-family: 'Lato';
@@ -351,6 +351,7 @@ section.project .card-wrapper{
     grid-template-columns: repeat(3,1fr);
     column-gap: 2rem;
     margin-bottom: 5rem;
+    row-gap:1rem;
     
 }
 section.project .card-wrapper .card{
